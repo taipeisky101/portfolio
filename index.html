@@ -30,8 +30,8 @@
 
 		function change2() {
 			x++;
-			x = x % 3;
-			document.getElementById("b").src = "b" + x + ".png";
+			x = x % 2;
+			document.getElementById("p").src = "p" + x + ".png";
 		}
 	</script>
 </head>
@@ -233,7 +233,7 @@
 						<br></br>
 						<div class="col-sm">
 							<p>Pinmo</p>
-							<img src="p0.png" width="413" height="233">
+							<img id="p" src="p0.png" width="413" height="233" onclick="change2()">
 							<br></br>
 
 						</div>
